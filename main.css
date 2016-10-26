@@ -1,0 +1,156 @@
+html, body,h2,h1,h3,p {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+}
+body{
+    background-color:gainsboro;
+}
+section
+{
+    background-color: #fff;
+    width:80%;
+    margin: 100px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border: 2px solid;
+    border-radius: 10px;
+    border-color:#fff; 
+    
+}
+.info{
+    float: right;
+    margin-right: 230px;
+    margin-top: 100px;
+}
+#contact {
+    
+    padding-left: 30px;
+    
+}
+header{
+    background-color: #fff;
+    width:80%;
+    margin: 100px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+     border-radius: 5px;
+    
+}
+
+.img-style {
+    border-radius: 50%;
+    width: 200px;
+	margin: 10px;
+    margin-left: 250px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	-webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	-moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+}
+
+.headlines
+{
+    color: #39beef;
+    margin-left: 10px;
+}
+.content
+{
+    margin: 10px;
+    padding-bottom: 10px;
+    margin-left: 220px;
+    font-size: 20px;
+}
+
+#skills { 
+    border-spacing: 10px;
+    border-collapse: separate;
+}
+#skills td { 
+    padding: 10px;
+    background-color: #39beef;
+    font-family: 'Open Sans', Arial, sans-serif;
+    color:#fff;
+    
+}
+ul
+{
+    list-style-type: none;
+}
+li
+{
+    margin-top: 20px;
+}
+.place
+{
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+.degree
+{
+    font-size: 18px;
+    margin-left: 30px;
+    
+}
+
+.company
+{
+    font-size: 20px;
+    font-weight: bold;
+     margin-left: 30px;
+    
+}
+.job-description
+{
+    font-size: 18px;
+   
+    
+}
+
+#awards
+{
+
+    border-collapse: collapse;
+
+}
+
+#awards td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+#awards tr:nth-child(even) {
+    background-color: #39beef;
+    color:#fff;
+    
+}
+footer {
+    background-color: gainsboro;
+    width:80%;
+    margin: 100px;
+    margin-bottom: 0px;
+    margin-top: 20px;
+    border: 2px solid;
+    
+    border-color:gainsboro;
+    bottom: 0;
+    position: fixed;
+/*    padding-top: 50px;*/
+    height: 40px;
+    transition-duration: 0.300s;
+   
+    
+        }
+
+
+footer:hover {
+    height: 200px;
+}
+#menu {
+    font-size: 20px;
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 24px;
+}
